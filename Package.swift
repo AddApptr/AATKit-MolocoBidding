@@ -20,8 +20,8 @@ let package = Package(
     ],
     dependencies: [
         // Mark: Dependencies Begin
-        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.18.0"),
-        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.18.0"),
+        .package(url: "https://github.com/AddApptr/AATKit.git", exact: "3.19.0-beta1"),
+        .package(url: "https://github.com/AddApptr/AATKit-GraviteRTB.git", exact: "3.19.0-beta1"),
         // Mark: Dependencies End
     ],
     // Mark: Targets
@@ -40,13 +40,13 @@ let package = Package(
         // Mark: Binary Targets
         .binaryTarget(
             name: "AATMolocoBiddingDSPAdapter",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/AATMolocoBiddingDSPAdapter.zip",
-            checksum: "b8586e583198b5c71542bedbee3275834e4c8d5ddb1f081434903130b9c982a3"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/AATMolocoBiddingDSPAdapter.zip",
+            checksum: "7b3d0daf588d9b4494e1bacb589e98fcaa8e9509defdd0d986dfd218dfd27b0e"
         ),
         .binaryTarget(
             name: "AATMolocoSDK",
-            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.18.0/MolocoSDK.zip",
-            checksum: "7fc354677099ab488485d0c54cdf4b50aa5958a304b8644f09420b3caa9b8773"
+            url: "https://gravite-sdk-releases.s3.eu-central-1.amazonaws.com/aatkit/ios/spm/3.19.0-beta1/MolocoSDK.zip",
+            checksum: "215b825ee2a042277954a537be0336ae85e44fee05621dc312f0f8a1a0ec77a0"
         ),
     ]
 )
